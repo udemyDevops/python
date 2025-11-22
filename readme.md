@@ -33,4 +33,6 @@ choco install pycharm-community -y
     - chmod +x {python file} --> to make it executable
         > Run the file using absolute / relative path --> `./filename.py`
 
-        > If the interpretor path is not specified --> `python filename.py`
+        > If the interpretor path is not specified --> `python filename.py`  or `python3 filename.py`
+
+        > python2 --> end of support but still there are use cases like Ansible uses python2, linux system automation is more stable with python2 libraries
