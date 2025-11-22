@@ -30,3 +30,7 @@ choco install pycharm-community -y
         
         > python3 --> print statements has paranthesis, eg: `print("Hello world")`.
     - In Ubuntu 16 or higher --> default is python 3
+    - chmod +x {python file} --> to make it executable
+        > Run the file using absolute / relative path --> `./filename.py`
+
+        > If the interpretor path is not specified --> `python filename.py`
