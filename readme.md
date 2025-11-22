@@ -35,4 +35,4 @@ choco install pycharm-community -y
 
         > If the interpretor path is not specified --> `python filename.py`  or `python3 filename.py`
 
-        > python2 --> end of support but still there are use cases like Ansible uses python2, linux system automation is more stable with python2 libraries
+        > python2 --> end of support but still there are some use cases like Ansible uses python2, linux system automation is more stable with python2 libraries. But mostly python3 will be used.
