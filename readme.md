@@ -10,3 +10,6 @@
 * For linux or MacOs -- it comes by default but in windows it needs to be installed.
 ![alt text](python-installation.png)
 
+* Windows -- open PowerShell as administrator nad run the commands (install chocolatey, if not installed already)
+    - after cmpleting installation, reboot the pc
+    - search for and open `Anaconda Navigator` app from start menu --> launch `jupiter` notebook (browser based python interpretor)
