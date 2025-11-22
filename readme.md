@@ -18,6 +18,16 @@ choco install python -y
 choco install anaconda3 -y
 ```
 ```
-choco install pycharm-commnity -y
+choco install pycharm-community -y
 ```
-> after completing installation, reboot the pc. Search for and open `Anaconda Navigator` app from start menu --> launch `jupiter` notebook (browser based python interpretor)
+> after completing installation, reboot the pc. Search for and open `Anaconda Navigator` app from start menu --> launch `jupiter` notebook (browser based python interpretor) for practicing basic commands
+
+* Open `Anaconda Navigator` app from start menu --> launch `PyCharm Community` (IDE to run the python file in a virtual environment)
+
+* In Linux, to create a python file use vi/vim editor and give .py extension to the file. In the file need to provide the interpretor path (same as for bash script #!/bin/bash) --> #!/usr/bin/python
+    - #!/usr/bin/python --> default version of python
+    - In CentOS --> defualt is python 2.x (if python3 is installed then the interpretor would be #!/usr/bin/python3)
+        > In python2 --> print statements do not have paranthesis, eg: `print "Hello world"`.
+        
+        > In python3 --> print statements has paranthesis, eg: `print("Hello world")`.
+    - In Ubuntu --> default is python 3
